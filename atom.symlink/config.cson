@@ -1,60 +1,62 @@
-'global':
-  'editor':
-    'showIndentGuide': true
-    'fontFamily': 'Menlo'
-    'autoIndentOnPaste': false
-    'nonWordCharacters': "./\\\\()\\\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
-    'fontSize': 12
-    'tabLength': 4
-    'softWrap': true
-    'invisibles': {}
-  'core':
-    'ignoredNames': [
-      '.bundle'
-      '.git'
-      'log'
-      'repositories'
-      'tmp'
-      'vendor'
+"*":
+  editor:
+    showIndentGuide: true
+    fontFamily: "Menlo"
+    autoIndentOnPaste: false
+    nonWordCharacters: "./\\\\()\\\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+    fontSize: 12
+    tabLength: 4
+    softWrap: true
+    invisibles: {}
+  core:
+    ignoredNames: [
+      ".bundle"
+      ".git"
+      "log"
+      "repositories"
+      "tmp"
+      "vendor"
     ]
-    'themes': [
-      'unity-ui'
-      'glacier-syntax'
+    themes: [
+      "unity-ui"
+      "glacier-syntax"
     ]
-    'hideGitIgnoredFiles': true
-    'disabledPackages': [
-      'background-tips'
-      'exception-reporting'
-      'metrics'
-      'language-java'
-      'language-toml'
-      'background-tips'
-      'bookmarks'
-      'markdown-preview'
-      'spell-check'
-      'archive-view'
-      'autoflow'
-      'autosave'
-      'bezier-curve-editor'
-      'go-to-line'
-      'open-on-github'
-      'Zen'
-      'atom-jshint'
-      'linter-scss-lint'
-      'linter-htmlhint'
-      'language-ruby-on-rails'
-      'language-objective-c'
-      'docblockr'
+    hideGitIgnoredFiles: true
+    disabledPackages: [
+      "background-tips"
+      "exception-reporting"
+      "metrics"
+      "language-java"
+      "language-toml"
+      "background-tips"
+      "bookmarks"
+      "markdown-preview"
+      "spell-check"
+      "archive-view"
+      "autoflow"
+      "autosave"
+      "bezier-curve-editor"
+      "go-to-line"
+      "open-on-github"
+      "Zen"
+      "atom-jshint"
+      "linter-scss-lint"
+      "linter-htmlhint"
+      "language-ruby-on-rails"
+      "language-objective-c"
+      "docblockr"
     ]
-  'spell-check':
-    'grammars': [
-      'text.plain'
-      'source.gfm'
-      'text.git-commit'
+  "spell-check":
+    grammars: [
+      "text.plain"
+      "source.gfm"
+      "text.git-commit"
     ]
-  'whitespace':
-    'removeTrailingWhitespace': false
-  'welcome':
-    'showOnStartup': false
-  'release-notes':
-    'viewedVersion': '0.89.0'
+  whitespace:
+    removeTrailingWhitespace: false
+  welcome:
+    showOnStartup: false
+  "release-notes":
+    viewedVersion: "0.89.0"
+  linter: {}
+  "linter-csslint": {}
